@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="cstyle.css">
+    </head>
+    <body>
+        <img src="download.png" alt="X mark" height="42" width="42">
+ 
+        <div class= "wrapper">
+            <header>
+                <h1>Mordecai Assignment 6: Dynamic Multiplication Table</h1>
+                <p>Please enter the following information below:</p>
+            </header>
+            <form id="enter">
+                <label>
+                    Horizontal Start:<br>
+                    <input type= "text"
+                    name="HorizontalStart"
+                    id = "HorizontalStart">
+                    <p id="demo"></p>
+                    <br>
+                </label>
+                <label>
+                    Horizontal End:<br>
+                    <input type="text"
+                    name="HorizontalEnd"
+                    id = "HorizontalEnd">
+                    <p id="demo1"></p>
+                    <br>
+                </label>
+                <label>
+                    Vertical Start:<br>
+                    <input type= "text"
+                    name="VerticalStart:"
+                    id = "VerticalStart">
+                    <p id="demo2"></p>
+                    <br>
+                </label>
+                <label>
+                    Vertical End:<br>
+                    <input type="text"
+                    name="VerticalEnd"
+                    id = "VerticalEnd">
+                    <p id="demo3"></p>
+                    <br>
+                </label>
+                <label>
+                    <input type="submit" id="button" value="Submit" onclick="input()">
+                </label>
+            </form>
+        </div>
+        <div id = "div1"></div>
+        <script src="javascript.js"></script>
+    </body>
+</html>
