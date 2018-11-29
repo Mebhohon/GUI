@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="cstyle.css">
+    </head>
+    <body>
+        <div class= "wrapper">
+            <header>
+                <h1>Assignment #7: Dynamic Multiplication Table</h1>
+                <p>Please enter numbers in fields below to create a Multiplication table of your choice:</p>
+            </header>
+            <form id="enter">
+                <label>
+                    Horizontal Start:<br>
+                    <input type= "text"
+                    name="HorizontalStart"
+                    id = "HorizontalStart">
+                    <p id="demo"></p>
+                    <br>
+                </label>
+                <label>
+                    Horizontal End:<br>
+                    <input type="text"
+                    name="HorizontalEnd"
+                    id = "HorizontalEnd">
+                    <p id="demo1"></p>
+                    <br>
+                </label>
+                <label>
+                    Vertical Start:<br>
+                    <input type= "text"
+                    name="VerticalStart"
+                    id = "VerticalStart">
+                    <p id="demo2"></p>
+                    <br>
+                </label>
+                <label>
+                    Vertical End:<br>
+                    <input type="text"
+                    name="VerticalEnd"
+                    id = "VerticalEnd">
+                    <p id="demo3"></p>
+                    <br>
+                </label>
+                <label>
+                    <input type="submit" id="button" value="Submit">
+                </label>
+            </form>
+        </div>
+        <div id = "div1"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+        <script src="myscript.js"></script>
+    </body>
+</html>
